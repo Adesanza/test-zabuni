@@ -1,0 +1,19 @@
+{
+    "billboardDetails": [
+        {
+            "location": "Abak Road, within ST. Patrick primary school premises",
+            "city": "Oku",
+            "lga": "Uyo",
+            "state": "Akwa Ibom",
+            "category": "billboard",
+            "type": "UNIPOLE",
+            "typeII": "UNIPOLE",
+            "height": "6m",
+            "width": "18m",
+            "lat": "5.027368",
+            "long": "7.908978",
+            "lat/long": "5.027368,7.908978",
+            "amount": "3,000,000/face/annum"
+        }
+    ]
+}		
