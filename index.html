@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://res.cloudinary.com/adesanza/image/upload/v1615071965/zabuni/Group_278_svodmy.svg" type="image/x-icon">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
@@ -36,8 +37,13 @@
                         <button class="homeb"><a href="" class="start">Sign Up</a></button>
                     </li>
                     <li>
-                        <button class="homeb1"><a href="" class="start1">Login</a></button>
-                    </li>    
+                        <button type="button" data-toggle="modal" data-target="#myModal" class="homeb1 start1">
+                        Login
+                        </button>
+                    </li>
+                    <!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+                        Open modal
+                      </button>     -->
                 </ul> 
             </div>  
         </nav>
@@ -93,6 +99,34 @@
 
 
 
+
+      <!-- The Modal -->
+  <div class="modal" id="myModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        <center><h2 class="modal-title">Login</h2></center>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+            <center>
+            <input class="form-control loww" type="email" placeholder="  Email" name="" id="">
+            <input class="mb-4 loww" type="password" placeholder="   Password">
+            <button class="lower">Login</button>
+        </div>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer">
+            <center><h4>Don’t have an account?<span><a href="">Sign Up</a></span></h4></center>
+        </div>
+        
+      </div>
+    </div>
+  </div>
     
 </body>
 </html>
