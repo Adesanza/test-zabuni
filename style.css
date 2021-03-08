@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     overflow-x: hidden;
+    outline: none;
 }
 .header-nav{
     padding: 0 50px;
@@ -94,4 +95,34 @@ a:hover{
     display: flex;
     padding: 17px;
     text-decoration: none;
+}
+.loww{
+    font-family: Avenir Next LT Pro;
+width: 419px;
+height: 60px;
+border: 0.7px solid #000000;
+box-sizing: border-box;
+filter: drop-shadow(0px 2px 2px rgba(181, 8, 65, 0.08));
+border-radius: 10px;
+margin: 10px;
+opacity: 0.5px;
+}
+.lower{
+    margin-top: 10px;
+    font-family: Avenir Next LT Pro;
+width: 419px;
+height: 60px;
+color: #FFFFFF;
+background: #393333;
+border: 0.7px solid #000000;
+box-sizing: border-box;
+box-shadow: 0px 2px 2px rgba(181, 8, 65, 0.08);
+border-radius: 10px;
+}
+.modal-header {
+    border-bottom: 0 none;
+}
+
+.modal-footer {
+    border-top: 0 none;
 }
