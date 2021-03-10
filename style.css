@@ -1,19 +1,22 @@
 *{
-    font-family: Avenir Next LT Pro;
+    font-family: 'Raleway';
     margin: 0;
     padding: 0;
     overflow-x: hidden;
     outline: none;
 }
 .header-nav{
-    padding: 0 50px;
+    /* padding: 0 5rem; */
     width: 100%;
-    height: 70px;
+    /* height: 70px; */
     background: #FFFFFF;
     box-shadow: 0px 2px 2px rgba(181, 8, 65, 0.08);
     }
+.header-nav > a > img{
+    padding: 0 0 0 3.67rem;
+}
 .olab{
-        padding-top: 30px;
+    padding-top: 30px;
 }
 
 .later{
@@ -23,19 +26,17 @@
     background-size: contain;
 width: 100%;
 height: 100%;
-padding: 0 0 120px 0;
+padding: 0 0 350px 0;
 
 }
 .loader{
     margin-top: 2rem;
-font-family: Avenir Next LT Pro;
 font-style: normal;
 font-weight: 600;
 font-size: 32px;
 color: #FFFFFF;
 }
 .accurate{
-font-family: Avenir Next LT Pro;
 font-style: normal;
 font-weight: normal;
 font-size: 20px;
@@ -47,7 +48,7 @@ color: #FFFFFF;
 }
 #navs{
     font-size: 16px;
-    padding-right: 30px;
+    padding: 10px 30px 0 0;
     color: #342929;
 }
 .homeb{
@@ -68,16 +69,6 @@ color: #FFFFFF;
     border: 1px solid #0056B3;
     border-radius: 5px;
 }
-.homeb2{
-    background-color: #E5E5E5;
-    border-radius: 5px ;
-    margin-top: 5px;
-    margin-right: 22px;
-    padding:6px 15px;
-    font-size: 16px;
-    border: 0.7px solid #0056B3;
-box-sizing: border-box;
-}
 .start1{
     color: #0056B3;
 }
@@ -85,12 +76,10 @@ a:hover{
     color: #F5148E;
     text-decoration: none;
 }
-.popy{
-    margin-bottom: 70px;
-}
+
 .taking{
     width: 100%;
-    padding: 50px 70px;
+    padding: 120px 70px 50px;
     background-color: #E5E5E5;
     margin-left: 0;
 }
@@ -103,24 +92,14 @@ a:hover{
     margin: 5px;
     font-size: 24px;
 }
-.start3{
-    margin: 5px;
-    font-size: 24px;
-    color: #0056B3;
-}
 .grow{
-    font-family: Avenir Next LT Pro;
-    font-size: 49px;
+    font-size: 47px;
     font-style: normal;
     font-weight: 700;
     color:#342929;
-    ;
-
-
 }
 #feature{
     color: #0056B3;
-    font-family: Avenir Next LT Pro;
     font-style: normal;
     font-weight: bold;
     font-size: 32px;
@@ -137,27 +116,25 @@ a:hover{
     text-decoration: none;
 }
 .loww{
-    font-family: Avenir Next LT Pro;
-width: 419px;
-height: 60px;
-border: 0.7px solid #000000;
-box-sizing: border-box;
-filter: drop-shadow(0px 2px 2px rgba(181, 8, 65, 0.08));
-border-radius: 10px;
-margin: 10px;
-opacity: 0.5px;
+    width: 419px;
+    height: 60px;
+    border: 0.7px solid #000000;
+    box-sizing: border-box;
+    filter: drop-shadow(0px 2px 2px rgba(181, 8, 65, 0.08));
+    border-radius: 10px;
+    margin: 10px;
+    opacity: 0.5px;
 }
 .lower{
     margin-top: 10px;
-    font-family: Avenir Next LT Pro;
-width: 419px;
-height: 60px;
-color: #FFFFFF;
-background: #393333;
-border: 0.7px solid #000000;
-box-sizing: border-box;
-box-shadow: 0px 2px 2px rgba(181, 8, 65, 0.08);
-border-radius: 10px;
+    width: 419px;
+    height: 60px;
+    color: #FFFFFF;
+    background: #393333;
+    border: 0.7px solid #000000;
+    box-sizing: border-box;
+    box-shadow: 0px 2px 2px rgba(181, 8, 65, 0.08);
+    border-radius: 10px;
 }
 .modal-header {
     border-bottom: 0 none;
@@ -179,10 +156,9 @@ footer h3 {
 #advert{
     width: 237px;
 height: 48px;
-font-family: Avenir Next LT Pro;
 font-style: normal;
 font-weight: normal;
-font-size: 20px;
+font-size: 17px;
 line-height: 24px;
 text-align: center;
 
@@ -194,9 +170,20 @@ color: #342929;
 #pink{
 width: 96px;
 height: 23px;
-font-family: Avenir Next LT Pro;
 font-style: normal;
 font-weight: bold;
 font-size: 16px;
 color: #0056B3;
+}
+.bolar{
+    margin: 30px 30px 0 0;
+height: 36px;
+
+opacity: 0.5;
+border: 1px solid #0056B3;
+box-sizing: border-box;
+border-radius: 5px;
+}
+.reserved{
+    padding-left: 40%;
 }
